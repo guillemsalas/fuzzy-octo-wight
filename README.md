@@ -1,5 +1,5 @@
 #F.js
-### Small future/promise library
+### Compressed future/promise snippet
 
 #####Get a new future instance:
 var f = F();
