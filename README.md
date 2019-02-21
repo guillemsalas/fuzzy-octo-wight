@@ -1,12 +1,19 @@
-#F.js
-### Compressed future/promise snippet
+# F.js
 
-#####Get a new future instance:
+> Compressed future/promise snippet
+
+## Quick usage guide:
+```js
+
 var f = F();
-#####Subscribe to promise
+
+# subscribe to the promise
 f.on.ok(successHandler).ko(errorHandler);
-#####Trigger the future
-######error
-f.ko(data);
-######success
-f.ok(data);
+
+# trigger failure
+f.ko(data)
+
+# trigger success
+f.ok(data)
+
+```
